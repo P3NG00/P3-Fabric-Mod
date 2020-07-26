@@ -1,37 +1,37 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "p3fabricmod",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "P3NG00's Fabric Mod",
+  "description": "This is my Fabric Mod template!",
   "authors": [
-    "Me!"
+    "P3NG00"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/P3NG00/%s",
+    "issues": "https://github.com/P3NG00/%s/issues"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "license": "MIT",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.p3ng00.modid.Main"
+    ],
+    "client": [
+      "com.p3ng00.modid.Client"
+    ],
+    "server": [
+      "com.p3ng00.modid.Server"
     ]
   },
   "mixins": [
     "modid.mixins.json"
   ],
-
   "depends": {
-    "fabricloader": ">=0.7.4",
+    "fabricloader": ">=0.9.0",
     "fabric": "*",
     "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "flamingo": "*"
   }
 }
