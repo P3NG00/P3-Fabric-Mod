@@ -20,10 +20,8 @@
       "com.p3ng00.modid.Main"
     ],
     "client": [
-      "com.p3ng00.modid.Client"
     ],
     "server": [
-      "com.p3ng00.modid.Server"
     ]
   },
   "mixins": [

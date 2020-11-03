@@ -4,13 +4,10 @@
   "package": "com.p3ng00.modid.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "Mixin"
   ],
   "client": [
-    "Client"
   ],
   "server": [
-    "Server"
   ],
   "injectors": {
     "defaultRequire": 1
